@@ -1,0 +1,12 @@
+public class subtraction(
+  int x; //subtrahend? one on left
+  int y;
+  int difference;
+  public subtraction( int a, int b){
+    x = a;
+    y = b;
+  }
+  public int sub(){
+    difference = x - y;
+  }
+}
